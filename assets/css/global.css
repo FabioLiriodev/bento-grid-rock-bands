@@ -1,0 +1,127 @@
+@import url(/assets/css/reset.css);
+@import url(/assets/css/header.css);
+@import url(/assets/css/footer.css);
+@import url(/assets/css/grid-led-zeppelin.css);
+@import url(/assets/css/vinyl.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    font-size: 16px;
+    --font-title: 'Bebas Neue', sans-serif;
+    --font-text: 'Roboto', sans-serif;
+    --letter-spacing-title: 2px;
+    --font-weight-bold: 700;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+
+    --font-size-3xl: 6rem;
+    --font-size-2xl: 5rem;
+    --font-size-xl: 4rem;
+    --font-size-l: 3rem;
+    --font-size-xm: 2rem;
+    --font-size-m: 1.5rem;
+    --font-size-i: 1.25rem;
+    --font-size-b: 1rem;
+    --font-size-s: 0.75rem;
+    --font-size-xs: 0.5rem;
+
+    --padding-3xl: 6rem;
+    --padding-2xl: 5rem;
+    --padding-xl: 4rem;
+    --padding-l: 3rem;
+    --padding-m: 2rem;
+    --padding-b: 1rem;
+    --padding-s: 0.75rem;
+    --padding-xs: 0.5rem;
+
+    --gap-3xl: 6rem;
+    --gap-2xl: 5rem;
+    --gap-xl: 4rem;
+    --gap-l: 3rem;
+    --gap-m: 2rem;
+    --gap-b: 1rem;
+    --gap-s: 0.75rem;
+    --gap-xs: 0.5rem;
+
+    --margin-3xl: 6rem;
+    --margin-2xl: 5rem;
+    --margin-xl: 4rem;
+    --margin-l: 3rem;
+    --margin-m: 2rem;
+    --margin-b: 1rem;
+    --margin-s: 0.75rem;
+    --margin-xs: 0.5rem;
+
+
+    --background-color-page: linear-gradient(90deg, #1f1f1f 0%, #2e2e2e 100%);
+    --background-color-card: #3A3A3A;
+
+    --primary-color-strong: #D72638;
+    --primary-color-medium: #FF4C4C;
+    --primary-color-weak: #FF6F00;
+    --secondary-color-strong: #1F1F1F;
+    --secondary-color-medium: #2E2E2E;
+    --secondary-color-weak: #3A3A3A;
+    --neutral-color-strong: #CCCCCC;
+    --neutral-color-medium: #E0E0E0;
+    --neutral-color-weak: #F5F5F5;
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-title);
+}
+
+h1:hover,
+h1:focus,
+h2:hover,
+h2:focus {
+    opacity: 0.7;
+}
+
+h1 {
+    font-size: var(--font-size-l);
+}
+
+h2 {
+    font-size: var(--font-size-l);
+}
+
+h3 {
+    font-size: var(--font-size-xm);
+}
+
+h4 {
+    font-size: var(--font-size-m);
+}
+
+h5 {
+    font-size: var(--font-size-i);
+}
+
+strong {
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color-medium);
+}
+
+strong:hover,
+strong:focus {
+    color: var(--primary-color-strong);
+}
+
+body {
+    background: var(--background-color-page);
+    font-family: var(--font-text);
+    font-size: var(--font-size-b);
+    font-weight: var(--font-weight-regular);
+    
+
+}
+
