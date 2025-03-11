@@ -1,0 +1,120 @@
+:root {
+    font-size: 16px;
+}
+
+.card-01 {
+    grid-row-start: 1;
+    grid-row-end: span 4;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-s);
+    gap: var(--gap-s);
+}
+
+.title-text {
+    color: var(--neutral-color-strong);
+    text-align: center;
+}
+
+.list {
+    padding: 0 var(--padding-s) 1.5rem var(--padding-s);
+    margin-left: var(--margin-s);
+}
+
+.list-item {
+    font-size: var(--font-size-i);
+    padding: 0.25rem;
+    color: var(--neutral-color-weak);
+}
+
+.list-item:hover,
+.list-item:focus {
+    color: var(--primary-color-strong);
+}
+
+.card-02 {
+    grid-row-start: 5;
+    grid-row-end: span 1;
+    border: none;
+}
+
+.card-03 {
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+
+.album-info {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-s);
+    margin-left: var(--margin-s);
+}
+
+.album-info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-xs);
+}
+
+.album-cover {
+    width: 40%;
+}
+
+.album-cover:hover,
+.album-cover:focus {
+    scale: 1.05;
+    box-shadow: 5px 5px 5px var(--primary-color-strong);
+}
+
+.text-cover {
+    font-weight: var(--font-weight-bold);
+    
+}
+
+.text-cover:hover,
+.text-cover:focus {
+    color: var(--primary-color-strong);
+}
+
+.card-04 {
+    grid-row-start: 3;
+    grid-row-end: span 2;
+    border: none;
+}
+
+.ticket-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-05 {
+    grid-row-start: 5;
+    grid-row-end: span 1;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+
+.card-06 {
+    grid-row-start: 3;
+    grid-row-end: span 1;
+}
+
+.card-07 {
+    grid-row-start: 4;
+    grid-row-end: span 1;
+}
+
+.grid-container {
+    background: var(--secondary-color-weak);
+}
+
+.card {
+    background: var(--secondary-color-strong);
+    border-color: var(--neutral-color-medium);
+}

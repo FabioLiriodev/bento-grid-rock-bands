@@ -10,7 +10,6 @@
 }
 
 .grid-container {
-    border: 1px solid var(--neutral-color-medium);
     height: 100vh;
 
     display: grid;
