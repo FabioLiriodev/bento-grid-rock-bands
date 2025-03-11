@@ -54,18 +54,20 @@
     --margin-xs: 0.5rem;
 
 
-    --background-color-page: linear-gradient(90deg, #1f1f1f 0%, #2e2e2e 100%);
-    --background-color-card: #3A3A3A;
+    --background-color-page: linear-gradient(90deg, #000000 0%, #1f1f1f 100%);
+    --background-color-card: #2e2e2e ;
 
-    --primary-color-strong: #D72638;
-    --primary-color-medium: #FF4C4C;
-    --primary-color-weak: #FF6F00;
+    --primary-color-strong: #d90429;
+    --primary-color-medium: #e71d36;
+    --primary-color-weak: #e5383b;
     --secondary-color-strong: #1F1F1F;
     --secondary-color-medium: #2E2E2E;
     --secondary-color-weak: #3A3A3A;
     --neutral-color-strong: #CCCCCC;
     --neutral-color-medium: #E0E0E0;
     --neutral-color-weak: #F5F5F5;
+
+    --box-shadow-grid: 5px 5px 5px var(--neutral-color-medium);
 
 
 }
@@ -83,15 +85,17 @@ h1:hover,
 h1:focus,
 h2:hover,
 h2:focus {
-    opacity: 0.7;
+    color: var(--primary-color-medium);
 }
 
 h1 {
     font-size: var(--font-size-l);
+    transition: 0.3s ease;
 }
 
 h2 {
     font-size: var(--font-size-l);
+    transition: 0.3s ease;
 }
 
 h3 {
@@ -125,3 +129,6 @@ body {
 
 }
 
+sup {
+    font-size: var(--font-size-b);
+}
