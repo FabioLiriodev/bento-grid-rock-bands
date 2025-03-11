@@ -2,28 +2,9 @@
     font-size: 16px;
 }
 
-.grid-container {
-    border: 1px solid white;
-    height: 100vh;
-
-    display: grid;
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-columns: 0.67fr 1fr 0.67fr;
-    padding: 32px;
-    gap: 24px;
-}
-
-.card {
-    background-color: var(--background-color-card);
-    border: 1px solid var(--neutral-color-medium);
-    box-shadow: 3px 3px 3px solid var(--color-neutral-dark);
-    border-radius: 16px;
-    cursor: pointer;
-}
-
 .card:hover,
 .card:focus {
-    box-shadow: var(--box-shadow-grid);
+    box-shadow: var(--box-shadow-grid-led-zeppelin);
 }
 
 .card-01,
@@ -75,7 +56,6 @@
     height: 100%;
     object-fit: cover;
     border-radius: 16px;
-    border: 1px solid #FFFFFF;
     transition: 0.3s ease;
 }
 
