@@ -1,8 +1,7 @@
 @import url(/assets/css/reset.css);
 @import url(/assets/css/header.css);
 @import url(/assets/css/footer.css);
-@import url(/assets/css/grid-led-zeppelin.css);
-@import url(/assets/css/vinyl.css);
+@import url(/assets/css/grid.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -40,6 +39,7 @@
     --gap-xl: 4rem;
     --gap-l: 3rem;
     --gap-m: 2rem;
+    --gap-i: 1.5rem;
     --gap-b: 1rem;
     --gap-s: 0.75rem;
     --gap-xs: 0.5rem;
@@ -55,7 +55,9 @@
 
 
     --background-color-page: linear-gradient(90deg, #000000 0%, #1f1f1f 100%);
-    --background-color-card: #2e2e2e ;
+    --background-color-card: #2e2e2e;
+    --background-color-grid-deep-purple: #dfdbd5;
+    --background-color-card-shows: linear-gradient(180deg, #e5383b 0%, #e71d36 50%, #d90429 100%);
 
     --primary-color-strong: #d90429;
     --primary-color-medium: #e71d36;
@@ -67,7 +69,8 @@
     --neutral-color-medium: #E0E0E0;
     --neutral-color-weak: #F5F5F5;
 
-    --box-shadow-grid: 5px 5px 5px var(--neutral-color-medium);
+    --box-shadow-grid-led-zeppelin: 5px 5px 5px var(--neutral-color-medium);
+    --box-shadow-grid-deep-purple: 5px 5px 5px var(--primary-color-strong);
 
 
 }
@@ -79,13 +82,23 @@ h4,
 h5,
 h6 {
     font-family: var(--font-title);
+    text-align: center;
 }
 
 h1:hover,
 h1:focus,
 h2:hover,
-h2:focus {
+h2:focus,
+h3:hover,
+h3:focus {
     color: var(--primary-color-medium);
+}
+
+h4:hover,
+h4:focus,
+h5:hover,
+h5:focus {
+   opacity: 0.7;
 }
 
 h1 {
@@ -128,7 +141,6 @@ body {
     
 
 }
-
 sup {
     font-size: var(--font-size-b);
 }
