@@ -18,6 +18,12 @@
     border: 1px solid var(--neutral-color-medium);
     box-shadow: 3px 3px 3px solid var(--color-neutral-dark);
     border-radius: 16px;
+    cursor: pointer;
+}
+
+.card:hover,
+.card:focus {
+    box-shadow: var(--box-shadow-grid);
 }
 
 .card-01,
@@ -70,11 +76,12 @@
     object-fit: cover;
     border-radius: 16px;
     border: 1px solid #FFFFFF;
+    transition: 0.3s ease;
 }
 
 .cover-band:hover,
 .cover-band:focus {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .main-title {
