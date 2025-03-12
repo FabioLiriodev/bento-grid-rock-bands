@@ -59,11 +59,7 @@ The project embraces a modern design style, combining bold typography and clean 
 
 <h2> 🚧 Project Status 🚧 </h2>
 
-<div align="center">
-
-![Badge Finished](http://img.shields.io/static/v1?label=STATUS&message=FINISHED&color=GREEN&style=for-the-badge);
-
-</div> 
+![Badge Finish](http://img.shields.io/static/v1?label=STATUS&message=FINISH&color=GREEN&style=for-the-badge)
 
 <h2> ⚙️ Features ⚙️ </h2>
 
