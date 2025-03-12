@@ -84,14 +84,14 @@
 
 .world-status:hover,
 .world-status:focus {
-    background-color: var(--primary-color-strong);
+    background-color: var(--primary-color-dark);
     scale: 1.1;
 }
 
 .scale {
     font-family: var(--font-title);
     font-size: var(--font-size-xm);
-    color: var(--neutral-color-weak);
+    color: var(--neutral-color-light);
 }
 
 .comment {
@@ -99,11 +99,11 @@
     text-transform: uppercase;
     font-size: var(--font-size-s);
     font-weight: var(--font-weight-bold);
-    color: var(--neutral-color-strong);
+    color: var(--neutral-color-dark);
 }
 
 .subtitle {
-    color: var(--neutral-color-weak);
+    color: var(--neutral-color-light);
     letter-spacing: var(--letter-spacing-title);
 }
 
@@ -121,7 +121,7 @@
     text-align: center;
     text-transform: uppercase;
     letter-spacing: var(--letter-spacing-title);
-    color: var(--primary-color-weak);
+    color: var(--primary-color-light);
 }
 
 .music-name,
@@ -137,7 +137,7 @@
 
 .music-name:hover,
 .music-name:focus {
-    color: var(--primary-color-strong);
+    color: var(--primary-color-dark);
 }
 
 .number {
@@ -176,21 +176,21 @@
 .status-item:hover,
 .status-item:focus {
     scale: 1.1;
-    background-color: var(--primary-color-strong);
+    background-color: var(--primary-color-dark);
 }
 
 .status-scale {
     font-family: var(--font-title);
     font-size: var(--font-size-xm);
     font-weight: var(--font-weight-medium);
-    color: var(--neutral-color-weak);
+    color: var(--neutral-color-light);
 }
 
 .status-comment {
     font-size: var(--font-size-s);
     text-transform: uppercase;
     font-weight: var(--font-weight-bold);
-    color: var(--neutral-color-weak);
+    color: var(--neutral-color-light);
 }
 
 .card-05 > p {

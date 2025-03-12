@@ -54,13 +54,13 @@
 
 .number {
     font-weight: var(--font-weight-medium);
-    color: var(--secondary-color-weak);
+    color: var(--secondary-color-light);
     cursor: pointer;
 }
 
 .number:hover,
 .number:focus {
-    color: var(--primary-color-weak);
+    color: var(--primary-color-light);
     
 }
 
@@ -133,7 +133,7 @@
 .cover-image:hover,
 .cover-image:focus {
     scale:1.03;
-    box-shadow: 3px 3px 3px var(--secondary-color-weak);
+    box-shadow: 3px 3px 3px var(--secondary-color-light);
 }
 
 .lyrics-text {
@@ -169,21 +169,21 @@
 .status-item:hover,
 .status-item:focus {
     scale: 1.1;
-    background-color: var(--primary-color-strong);
+    background-color: var(--primary-color-light);
 }
 
 .status-scale {
     font-family: var(--font-title);
     font-size: var(--font-size-xm);
     font-weight: var(--font-weight-medium);
-    color: var(--neutral-color-weak);
+    color: var(--neutral-color-light);
 }
 
 .status-comment {
     font-size: var(--font-size-s);
     text-transform: uppercase;
     font-weight: var(--font-weight-bold);
-    color: var(--neutral-color-weak);
+    color: var(--neutral-color-light);
 }
 
 .card-06 {
@@ -196,6 +196,24 @@
 
 .info-shows {
     display: flex;
+    flex-direction: column;
     padding: var(--padding-xs);
     gap: var(--gap-s);
+}
+
+.info-card {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-s);
+}
+
+.data {
+    font-size: var(--font-size-i);
+    font-weight: var(--font-weight-medium);
+    color: var(--primary-color-medium);
+}
+
+.data-text {
+    font-size: var(--font-size-i);
+    font-weight: var(--font-weight-medium);
 }

@@ -1,11 +1,22 @@
+@import url(/assets/css/wall.css);
+
 :root {
     font-size: 16px;
+}
+
+p {
+    color: var(--neutral-color-dark);
+}
+
+.card:hover,
+.card:focus {
+    box-shadow: var(--box-shadow-grid-deep-purple);
 }
 
 .card-01 {
     grid-row-start: 1;
     grid-row-end: span 4;
-    background-color: red;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +25,7 @@
 }
 
 .title-text {
-    color: var(--neutral-color-strong);
+    color: var(--neutral-color-dark);
     text-align: center;
 }
 
@@ -26,12 +37,12 @@
 .list-item {
     font-size: var(--font-size-i);
     padding: 0.25rem;
-    color: var(--neutral-color-weak);
+    color: var(--neutral-color-light);
 }
 
 .list-item:hover,
 .list-item:focus {
-    color: var(--primary-color-strong);
+    color: var(--primary-color-dark);
 }
 
 .card-02 {
@@ -62,13 +73,13 @@
 }
 
 .album-cover {
-    width: 40%;
+    width: 30%;
 }
 
 .album-cover:hover,
 .album-cover:focus {
     scale: 1.05;
-    box-shadow: 5px 5px 5px var(--primary-color-strong);
+    box-shadow: var(--box-shadow-cover);
 }
 
 .text-cover {
@@ -77,8 +88,12 @@
 }
 
 .text-cover:hover,
-.text-cover:focus {
-    color: var(--primary-color-strong);
+.text-cover:focus,
+.text-member:hover,
+.text-member:focus,
+.text-prize:hover,
+.text-prize:focus {
+    color: var(--primary-color-dark);
 }
 
 .card-04 {
@@ -98,11 +113,47 @@
     grid-row-end: span 1;
     grid-column-start: 2;
     grid-column-end: span 2;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .card-06 {
     grid-row-start: 3;
-    grid-row-end: span 1;
+    grid-row-end: span 2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-s);
+    gap: var(--gap-s);
+}
+
+.prize-container {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-xl);
+}
+
+.prize {
+    text-align: center;
+}
+
+.text-prize {
+    font-size: var(--font-size-s);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+}
+
+.medal-icon {
+    width: 45px;
+    height: 45px;
+}
+
+.medal-icon:hover,
+.medal-icon:focus {
+    scale: 1.2;
 }
 
 .card-07 {
@@ -110,11 +161,31 @@
     grid-row-end: span 1;
 }
 
-.grid-container {
-    background: var(--secondary-color-weak);
-}
-
 .card {
-    background: var(--secondary-color-strong);
+    background: var(--secondary-color-dark);
     border-color: var(--neutral-color-medium);
 }
+
+.member-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.member-info {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 1rem 0;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.text-member {
+    font-size: var(--font-size-i);
+}
+

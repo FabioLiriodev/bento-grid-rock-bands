@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(
+      163deg,
+      transparent 0px,
+      transparent 1px,
+      #fff 1px,
+      #fff 14px,
+      transparent 14px
+    ),
+    linear-gradient(
+      161deg,
+      transparent 0px,
+      #fff 1px,
+      #fff 2px,
+      #fff 15px,
+      transparent 15px
+    ),
+    linear-gradient(
+      343deg,
+      transparent 0px,
+      transparent 1px,
+      #fff 1px,
+      #fff 14px,
+      transparent 14px
+    ),
+    linear-gradient(
+      343deg,
+      transparent 0px,
+      transparent 1px,
+      #fff 1px,
+      #fff 14px,
+      transparent 14px
+    );
+  background-color: #121212;
+  background-position: 2px 1px, 23px 16px, 48px 15px, 21px 30px;
+  background-size: 48px 30px;
+}

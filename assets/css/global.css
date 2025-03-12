@@ -57,20 +57,21 @@
     --background-color-page: linear-gradient(90deg, #000000 0%, #1f1f1f 100%);
     --background-color-card: #2e2e2e;
     --background-color-grid-deep-purple: #dfdbd5;
-    --background-color-card-shows: linear-gradient(180deg, #e5383b 0%, #e71d36 50%, #d90429 100%);
 
-    --primary-color-strong: #d90429;
-    --primary-color-medium: #e71d36;
-    --primary-color-weak: #e5383b;
-    --secondary-color-strong: #1F1F1F;
+    --primary-color-dark: #a4161a;
+    --primary-color-medium: #9d0208;
+    --primary-color-light: #c71f37;
+    --secondary-color-dark: #1F1F1F;
     --secondary-color-medium: #2E2E2E;
-    --secondary-color-weak: #3A3A3A;
-    --neutral-color-strong: #CCCCCC;
+    --secondary-color-light: #3A3A3A;
+    --neutral-color-dark: #CCCCCC;
     --neutral-color-medium: #E0E0E0;
-    --neutral-color-weak: #F5F5F5;
+    --neutral-color-light: #F5F5F5;
+    --color-yellow-golden: #ffd000;
 
     --box-shadow-grid-led-zeppelin: 5px 5px 5px var(--neutral-color-medium);
-    --box-shadow-grid-deep-purple: 5px 5px 5px var(--primary-color-strong);
+    --box-shadow-grid-deep-purple: 5px 5px 5px var(--primary-color-dark);
+    --box-shadow-cover: 3px 3px 3px var(--neutral-color-light);
 
 
 }
@@ -83,6 +84,7 @@ h5,
 h6 {
     font-family: var(--font-title);
     text-align: center;
+    transition: 0.3s ease;
 }
 
 h1:hover,
@@ -90,29 +92,25 @@ h1:focus,
 h2:hover,
 h2:focus,
 h3:hover,
-h3:focus {
-    color: var(--primary-color-medium);
-}
-
+h3:focus,
 h4:hover,
-h4:focus,
-h5:hover,
-h5:focus {
-   opacity: 0.7;
+h4:focus {
+    color: var(--primary-color-medium);
 }
 
 h1 {
     font-size: var(--font-size-l);
-    transition: 0.3s ease;
+   
 }
 
 h2 {
     font-size: var(--font-size-l);
-    transition: 0.3s ease;
+    
 }
 
 h3 {
     font-size: var(--font-size-xm);
+
 }
 
 h4 {
@@ -130,7 +128,7 @@ strong {
 
 strong:hover,
 strong:focus {
-    color: var(--primary-color-strong);
+    color: var(--primary-color-light);
 }
 
 body {
